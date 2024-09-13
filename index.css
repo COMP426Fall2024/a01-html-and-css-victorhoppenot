@@ -80,7 +80,6 @@ hr {
     text-align: center;
     width: 33vw;
 
-    color: white;
     font-size: 1vmax;
     line-height: 2vmax;
 
@@ -88,6 +87,10 @@ hr {
     -webkit-transition: 0.2s;
     -o-transition: 0.2s;
     -moz-transition: 0.2s;
+}
+.naventry{
+    color: white;
+
 }
 
 .naventry:hover {
@@ -98,11 +101,8 @@ hr {
 .navselected {
     text-align: center;
     background-color: white;
-    width: 33vw;
 
     color: black;
-    font-size: 1vmax;
-    line-height: 2vmax;
 }
 
 #nametable {
