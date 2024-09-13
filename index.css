@@ -1,0 +1,158 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: "Verdana", sans-serif;
+    transition: 0.1s;
+    -webkit-transition: 0.1s;
+    -o-transition: 0.1s;
+    -moz-transition: 0.1s;
+}
+
+body {
+    background-color: #f3e8d3;
+}
+
+hr {
+    display: block;
+    border: 0;
+    border-top: 0.2vw solid #348cc2;
+}
+
+.header {
+    width: 100vw;
+    height: 40vh;
+    background-position: center;
+    background-size: cover;
+}
+
+#homeheader {
+    background-image: url("img/pantheon.jpeg");
+}
+
+#romanheader {
+    background-image: url("img/coliseum.jpeg");
+}
+
+#greekheader {
+    background-image: url("img/athens.jpeg");
+}
+
+#compheader {
+    background-image: url("img/acropolis.jpeg");
+}
+
+.headertext {
+    text-align: center;
+    line-height: 40vh;
+
+    color: white;
+    font-size: 2.5vmax;
+    text-shadow: 0.2vmax 0.2vmax black;
+}
+
+.headersource {
+    position: absolute;
+    right: 2vw;
+    margin-top: 1vh;
+    padding: 0.2vmax;
+    background-color: white;
+}
+
+.sourcetext {
+    font-family: 'Arial', sans-serif;
+    font-weight: bolder;
+    font-size: 0.8vmax;
+
+}
+
+
+.nav {
+    width: 100vw;
+    height: 2.5vh;
+
+    border: 1px solid black;
+    border-collapse: collapse;
+
+    background-color: #348cc2;
+}
+
+.naventry {
+    text-align: center;
+    width: 33vw;
+
+    color: white;
+    font-size: 1vmax;
+    line-height: 2vmax;
+
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    -moz-transition: 0.2s;
+}
+
+.naventry:hover {
+    background-color: whitesmoke;
+    color: #1c1c1c;
+}
+
+.navselected {
+    text-align: center;
+    background-color: white;
+    width: 33vw;
+
+    color: black;
+    font-size: 1vmax;
+    line-height: 2vmax;
+}
+
+#nametable {
+    width: 100%;
+    height: 100%;
+    border: 0.2vmax solid black;
+    border-radius: 0.2vmax;
+}
+
+.nametablehead {
+    font-weight: bold;
+    text-align: center;
+}
+
+.nametableentry {
+    border: 0.2vmax solid black;
+    border-radius: 0.2vmax;
+
+}
+
+
+
+.page {
+    width: 100vw;
+    height: auto;
+
+    font-size: 1vmax;
+    font-family: "Times New Roman", serif;
+}
+
+.pagemain {
+    width: 70%;
+    padding: 2vh 2vw;
+    line-height: 2vmax;
+}
+
+.pageside {
+    width: 30%;
+    padding: 2vh 2vw;
+}
+
+.portrait {
+    width: 100%;
+    border: 0.4vmax solid black;
+    border-radius: 0.4vmax;
+}
+
+#pages {
+    background-color: #348cc2;
+    color: white;
+    font-size: 1vmax;
+    line-height: 2vmax;
+}

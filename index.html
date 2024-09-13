@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Basic HTML Layout</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="header" id="homeheader">
+        <div class="headersource">
+            <a href="https://stock.adobe.com/images/pantheon-in-rome-italy/99373767?prev_url=detail" class="sourcetext">source</a>
+        </div>
+        <p class="headertext"><i>The Greek and Roman Pantheons</i></p>
+        <!--Header-->
+    </div>
+
+    <table class="nav">
+        <!--Nav-->
+        <tbody>
+            <tr>
+                <td class="navselected">Home</td>
+                <td class="naventry" onclick="location.href='roman.html'">The Roman Pantheon</td>
+                <td class="naventry" onclick="location.href='greek.html'">The Greek Pantheon</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table class="page">
+        <!--Body-->
+        <tbody>
+            <tr>
+                <!--P1-->
+                <td class="pagemain">
+                    The Greek and Roman pantehons are the probably the two most notable pantheons, or collection of deities, in the west. Because of their intertwined history, the two pantheons share many similarities; however, their pantheons each represent different virtues and perspectives reflective of their different histories as greek mythology predates Roman mytholgy by over a millennium. The first major difference between the greek and roman pantheons is the that the gods of the greek pantheon were more human-like as they portrayed various aspects of human nature as they are influenced by emtoions such as love, anger, and jealousy. However, the gods of the roman pantheon were more removed representing roman virtues such as order.
+                    
+                    
+                </td>
+                <td class="pageside">
+                    <table id="nametable">
+                        <thead>
+                            <td class="nametablehead">Greek</td>
+                            <td class="nametablehead">Roman</td>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="nametableentry">Zeus</td>
+                                <td class="nametableentry">Jupiter</td>
+                            </tr>
+                            <tr>
+                                <td class="nametableentry">Hera</td>
+                                <td class="nametableentry">Juno</td>
+                            </tr>
+                            <tr>
+                                <td class="nametableentry">Poseidon</td>
+                                <td class="nametableentry">Neptune</td>
+                            </tr>
+                            <tr>
+                                <td class="nametableentry">Ares</td>
+                                <td class="nametableentry">Mars</td>
+                            </tr>
+                            <tr>
+                                <td class="nametableentry">Athena</td>
+                                <td class="nametableentry">Minerva</td>
+                            </tr>
+                            <tr>
+                                <td class="nametableentry">Demeter</td>
+                                <td class="nametableentry">Ceres</td>
+                            </tr>
+                            <tr>
+                                <td class="nametableentry">Apollo</td>
+                                <td class="nametableentry">Apollo</td>
+                            </tr>
+                            <tr>
+                                <td class="nametableentry">Artemis</td>
+                                <td class="nametableentry">Diana</td>
+                            </tr>
+                            <tr>
+                                <td class="nametableentry">Aphrodite</td>
+                                <td class="nametableentry">Venus</td>
+                            </tr>
+                            <tr>
+                                <td class="nametableentry">Hephaistos</td>
+                                <td class="nametableentry">Vulcan</td>
+                            </tr>
+                            <tr>
+                                <td class="nametableentry">Hermes</td>
+                                <td class="nametableentry">Mercury</td>
+                            </tr>
+
+
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr><td colspan="2"><hr></td></tr>
+            <tr>
+                <td class="pagemain">
+                    Sources:<br>
+                    <a href="https://www.theoi.com/articles/roman-gods-vs-greek-gods-know-the-difference/">https://www.theoi.com/articles/roman-gods-vs-greek-gods-know-the-difference/</a><br>
+                    <a href="https://www.britishmuseum.org/blog/gods-and-goddesses-greek-and-roman-pantheon">https://www.britishmuseum.org/blog/gods-and-goddesses-greek-and-roman-pantheon</a>
+                    
+                </td>
+                <td class="pageside">
+                    <label for="pages">Are you excited?</label>
+                    <select name="pages" id="pages">
+                        <option value="yes">yes</option>
+                        <option value="no">no</option>
+                        <option value="maybe">maybe</option>
+                    </select>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
