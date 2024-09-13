@@ -41,7 +41,7 @@ hr {
     background-image: url("img/acropolis.jpeg");
 }
 
-.header p {
+.headertext {
     text-align: center;
     line-height: 40vh;
 
@@ -144,7 +144,7 @@ hr {
     padding: 2vh 2vw;
 }
 
-.portrait {
+td>img {
     width: 100%;
     border: 0.4vmax solid black;
     border-radius: 0.4vmax;
