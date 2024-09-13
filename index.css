@@ -41,7 +41,7 @@ hr {
     background-image: url("img/acropolis.jpeg");
 }
 
-.headertext {
+.header>p {
     text-align: center;
     line-height: 40vh;
 
